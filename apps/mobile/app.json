@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Kijani",
+    "slug": "kijani-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "kijani",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "backgroundColor": "#1B5E20"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Kijani to use the camera for QR scanning."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Kijani to capture GPS coordinates for traceability."
+        }
+      ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.kijani.traceability"
+    },
+    "android": {
+      "package": "com.kijani.traceability",
+      "adaptiveIcon": {
+        "backgroundColor": "#1B5E20"
+      }
+    }
+  }
+}

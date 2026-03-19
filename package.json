@@ -1,0 +1,10 @@
+{
+  "name": "kijani",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=@kijani/api",
+    "dev:mobile": "npm run start --workspace=@kijani/mobile",
+    "start:api": "npm run start --workspace=@kijani/api"
+  }
+}

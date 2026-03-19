@@ -1,0 +1,17 @@
+{
+  "name": "@kijani/api",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@kijani/shared": "*",
+    "fastify": "^5.2.0",
+    "@fastify/cors": "^10.0.0",
+    "better-sqlite3": "^11.8.0",
+    "dotenv": "^16.4.0",
+    "uuid": "^10.0.0"
+  }
+}
