@@ -1,4 +1,4 @@
-Kijani Traceability
+#Kijani Traceability
 Kijani is a leather supply chain traceability platform I've been building for the Kenyan market. Field agents use the mobile app to scan QR-tagged hides, log weight/grade/species, and batch-upload records to the API — even offline. Tanneries can then look up any hide's provenance by scanning its QR code.
 
 This repo is the MVP monorepo: a Fastify REST API backed by SQLite, and an Expo React Native agent app.
